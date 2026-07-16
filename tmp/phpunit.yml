@@ -23,11 +23,11 @@ jobs:
       # Composer???????????????????
       - uses: php-actions/composer@v6
         with:
-          php_version: '8.3'
+          php_version: '8.4.1'
           args: '--no-progress --prefer-dist'
 
       # PHPUnit???
       - uses: php-actions/phpunit@v3
         with:
-          php_version: '8.3'
+          php_version: '8.4.1'
           test_suffix: './tests/TodoTest.php'
