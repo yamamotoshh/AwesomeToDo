@@ -30,7 +30,7 @@ jobs:
         uses: zaproxy/action-af@v0.2.0
         with:
             # 作成した自動化プランのファイルを指定
-            plan: 'tmp/zap_scan.yml'
+            plan: 'tmp/AwesomeToDo_ZAP_Scan.yml'
  
       - name: スキャン結果をアーティファクトとして保存
         uses: actions/upload-artifact@v4
